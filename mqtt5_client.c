@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "mqtt_client_priv.h"
+#include "lib/include/mqtt_client_priv.h"
 #include "esp_log.h"
 #include <string.h>
 

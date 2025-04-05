@@ -1,8 +1,8 @@
-#include "mqtt_outbox.h"
+#include "include/mqtt_outbox.h"
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
-#include "mqtt_config.h"
+#include "include/mqtt_config.h"
 #include "sys/queue.h"
 #include "esp_heap_caps.h"
 #include "esp_log.h"

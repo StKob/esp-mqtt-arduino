@@ -1,8 +1,8 @@
 #include <string.h>
-#include "mqtt5_msg.h"
+#include "include/mqtt5_msg.h"
 #include "mqtt_client.h"
-#include "mqtt_config.h"
-#include "platform.h"
+#include "include/mqtt_config.h"
+#include "include/platform.h"
 #include "esp_log.h"
 
 #define MQTT5_MAX_FIXED_HEADER_SIZE 5

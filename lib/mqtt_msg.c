@@ -30,9 +30,9 @@
 */
 #include <string.h>
 #include "mqtt_client.h"
-#include "mqtt_msg.h"
-#include "mqtt_config.h"
-#include "platform.h"
+#include "include/mqtt_msg.h"
+#include "include/mqtt_config.h"
+#include "include/platform.h"
 
 #define MQTT_MAX_FIXED_HEADER_SIZE 5
 #define MQTT_3_1_VARIABLE_HEADER_SIZE 12

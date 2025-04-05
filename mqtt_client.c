@@ -5,9 +5,9 @@
 #include "esp_heap_caps.h"
 #include "esp_transport.h"
 #include "mqtt_client.h"
-#include "mqtt_client_priv.h"
-#include "mqtt_msg.h"
-#include "mqtt_outbox.h"
+#include "lib/include/mqtt_client_priv.h"
+#include "lib/include/mqtt_msg.h"
+#include "lib/include/mqtt_outbox.h"
 
 _Static_assert(sizeof(uint64_t) == sizeof(outbox_tick_t), "mqtt-client tick type size different from outbox tick type");
 #ifdef ESP_EVENT_ANY_ID
